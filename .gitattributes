@@ -1,0 +1,27 @@
+# Git attributes for Quantum Transpilation Analysis project
+
+# Jupyter Notebooks
+*.ipynb linguist-documentation=false
+*.ipynb linguist-detectable=true
+*.ipynb filter=nbstripout
+
+# Python files
+*.py linguist-language=Python
+
+# Markdown files
+*.md linguist-documentation
+
+# Images - treat as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+
+# Prevent line ending issues
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf

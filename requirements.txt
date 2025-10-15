@@ -1,0 +1,15 @@
+# Core Quantum Computing Framework (Qiskit 1.0+)
+qiskit>=2.1.0                # IBM's quantum computing SDK for circuit creation and transpilation
+qiskit-ibm-runtime>=0.40.1   # IBM Quantum runtime and fake backends for Qiskit 1.0+
+
+# Quantum Benchmarking
+supermarq>=0.5.52             # SupermarQ benchmark suite for quantum algorithm evaluation
+
+# Scientific Computing and Visualization
+numpy                # Numerical computing for quantum state manipulation
+matplotlib            # Data visualization for results and metrics
+
+# Interactive Computing (for Jupyter notebook support)
+jupyter               # Jupyter notebook interface
+ipykernel             # Python kernel for Jupyter notebooks
+ipywidgets            # Interactive widgets for notebooks

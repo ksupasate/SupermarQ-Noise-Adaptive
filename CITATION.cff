@@ -1,0 +1,108 @@
+# Citation File Format (CFF) for academic referencing
+# More info: https://citation-file-format.github.io/
+
+cff-version: 1.2.0
+message: "If you use this software, please cite both the implementation and the original research paper."
+type: software
+
+title: "SupermarQ Noise-Adaptive Transpilation: Open-Source Implementation"
+abstract: "Open-source implementation of quantum circuit transpilation analysis based on the QCNC 2025 paper 'Understanding Noise-Adaptive Transpilation Techniques Using the SupermarQ Benchmark'. This framework evaluates six quantum algorithms across four Qiskit transpilation optimization levels, measuring two-qubit gate counts and five SupermarQ performance metrics (PC, CD, ER, LV, PL)."
+
+authors:
+  - family-names: "Vorathammathorn"
+    given-names: "Supasate"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # Update with actual ORCID if available
+  - name: "Contributors"
+
+repository-code: "https://github.com/ksupasate/SupermarQ-Noise-Adaptive"
+url: "https://github.com/ksupasate/SupermarQ-Noise-Adaptive"
+
+keywords:
+  - quantum computing
+  - quantum circuits
+  - circuit transpilation
+  - noise-adaptive transpilation
+  - circuit optimization
+  - benchmarking
+  - SupermarQ
+  - Qiskit
+  - NISQ
+  - quantum algorithms
+  - Grover algorithm
+  - Shor algorithm
+  - Hamiltonian simulation
+  - quantum performance metrics
+
+license: MIT
+version: 1.0.0
+date-released: "2025-01-15"
+
+references:
+  - type: conference-paper
+    title: "Understanding Noise-Adaptive Transpilation Techniques Using the SupermarQ Benchmark"
+    authors:
+      - family-names: "Vorathammathorn"
+        given-names: "Supasate"
+      - family-names: "Binhar"
+        given-names: "Muhummud"
+      - family-names: "Patamawisut"
+        given-names: "Natchapol"
+      - family-names: "Chanchuphol"
+        given-names: "Suthep"
+      - family-names: "Prechaprapranwong"
+        given-names: "Prapong"
+      - family-names: "Hansomboon"
+        given-names: "Jaturon"
+      - family-names: "Sarochawikasit"
+        given-names: "Rajchawit"
+    conference:
+      name: "2025 International Conference on Quantum Communications, Networking, and Computing (QCNC)"
+    year: 2025
+    start: 416
+    end: 420
+    doi: "10.1109/QCNC64685.2025.00071"
+    url: "https://doi.org/10.1109/QCNC64685.2025.00071"
+
+  - type: article
+    title: "SupermarQ: A Scalable Quantum Benchmark Suite"
+    authors:
+      - family-names: "Tomesh"
+        given-names: "Teague"
+      - family-names: "Gokhale"
+        given-names: "Pranav"
+      - family-names: "Omole"
+        given-names: "Victory"
+      - family-names: "Chong"
+        given-names: "Frederic T."
+      - family-names: "Martonosi"
+        given-names: "Margaret"
+    journal: "arXiv preprint"
+    year: 2022
+    doi: "10.48550/arXiv.2202.11045"
+    url: "https://arxiv.org/abs/2202.11045"
+
+preferred-citation:
+  type: conference-paper
+  title: "Understanding Noise-Adaptive Transpilation Techniques Using the SupermarQ Benchmark"
+  authors:
+    - family-names: "Vorathammathorn"
+      given-names: "Supasate"
+    - family-names: "Binhar"
+      given-names: "Muhummud"
+    - family-names: "Patamawisut"
+      given-names: "Natchapol"
+    - family-names: "Chanchuphol"
+      given-names: "Suthep"
+    - family-names: "Prechaprapranwong"
+      given-names: "Prapong"
+    - family-names: "Hansomboon"
+      given-names: "Jaturon"
+    - family-names: "Sarochawikasit"
+      given-names: "Rajchawit"
+  conference:
+    name: "2025 International Conference on Quantum Communications, Networking, and Computing (QCNC)"
+  year: 2025
+  start: 416
+  end: 420
+  doi: "10.1109/QCNC64685.2025.00071"
+  url: "https://doi.org/10.1109/QCNC64685.2025.00071"

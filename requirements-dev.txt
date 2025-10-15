@@ -1,0 +1,23 @@
+# Development Dependencies
+# Install with: pip install -r requirements-dev.txt
+
+# Code Quality and Linting
+black==24.1.1                # Code formatter for consistent style
+flake8==7.0.0                # Linting tool for code quality
+mypy==1.8.0                  # Static type checker for Python
+pylint==3.0.3                # Comprehensive code analysis
+
+# Testing
+pytest==8.0.0                # Testing framework
+pytest-cov==4.1.0            # Coverage plugin for pytest
+
+# Documentation
+sphinx==7.2.6                # Documentation generator
+sphinx-rtd-theme==2.0.0      # Read the Docs theme for Sphinx
+
+# Jupyter Development
+nbconvert==7.14.2            # Convert notebooks to other formats
+nbformat==5.9.2              # Read/write notebook files programmatically
+
+# Version Control Helpers
+pre-commit==3.6.0            # Git hooks for automated checks
